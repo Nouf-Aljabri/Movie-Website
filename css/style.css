@@ -8,10 +8,11 @@
     transform: scale(1.09);
   
   }
-  #myCard{
+  .myCard{
     height: calc(100% - 15px);
     margin-bottom: 15px;
   }
+
 
 
 .title {
@@ -105,3 +106,30 @@
 }
 
 
+.minutes{
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+ 
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  border-color : white
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+ 
+}
